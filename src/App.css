@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Segoe UI Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Regular'), url('Segoe UI.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe UI Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Bold'), url('Segoe UI Bold.woff') format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root{
+  --white: #FCFCFC;
+  --cinza-instagram: #DBDBDB;
+  --cinza-letras: #737373;
+  --cinza-footer: #C7C7C7;
+  --blue: #0396f6;
+}
+
+main{
+  display: flex;
+  font-family: 'Segoe UI Regular';
+  background: #fff;
+}
+
+.LateralEsquerda{
+  /*border: solid var(--cinza-instagram);*/
+  height: 100%;
+  width: 16%;  
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.LateralDireita{
+  height: 100%;
+  width: 26%;
+}
+
+.ConteudoCentral{
+  height: 100%;
+  width: 58%;
+  border-left: 1px solid var(--cinza-instagram);
+  
+}
+
+
+@media (max-width:1267px) {
+  .LateralEsquerda{
+    /*border: solid var(--cinza-instagram);*/
+    width: 8%;
+  }
+  
+  .LateralDireita{
+    width: 28%;
+  }
+  
+  .ConteudoCentral{
+    width: 64%;
+  }
+
+
+  /*----------- menu ----------*/
+  .logoLateralEsquerda{
+    display: none;
+  }
+
+  .menuLateralEsquerda{
+    display: none;
+  }
+  .logoPc2{
+    display: block;
+  }
+
+  .menuLateralEsquerda2{
+    display: block;
+  }
+
+}
+
+@media (max-width:1140px) {
+  .LateralEsquerda{
+    width: 10%;
+  }
+
+  .ConteudoCentral{
+    width: 90%;
+  }
+
+  .LateralDireita{
+    display: none;
+  }
+  
+}
+
+@media (max-width: 667px) {
+  .LateralEsquerda{
+    width: 15%;
+  }
+
+  .ConteudoCentral{
+    width: 85%;
+  }
+}

@@ -1,0 +1,90 @@
+.LateralDireita{
+    padding: 10px;
+    width: 300px;
+    padding-top: 55px;
+}
+
+.ConteinerHeaderDireito .HeaderDireito .Borda{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--cinza-footer);
+    overflow: hidden;
+    padding: 1px;
+}
+
+.ConteinerHeaderDireito .HeaderDireito .Borda img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.ConteinerHeaderDireito{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ConteinerHeaderDireito .HeaderDireito{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ConteinerSugestoes .titleSugestoes{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 10px ;
+}
+
+.ConteinerSugestoes .titleSugestoes p{
+    cursor: pointer;
+}
+
+.ConteinerSugestoes img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ConteinerSugestoes .Sugestoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.ConteinerSugestoes .Sugestoes .Sugestoes02{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ConteinerSugestoes .Sugestoes .Sugestoes02 span{
+    cursor: pointer;
+}
+
+.FooterDireito{
+    margin-top: 50px;
+}
+
+.FooterDireito p{
+    padding-bottom: 30px;
+    list-style: none;
+    color: var(--cinza-footer);
+}
+
+.FooterDireito p a{
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: var(--cinza-footer);
+}
+
+.FooterDireito p a:hover{
+    text-decoration: underline;
+}
+
+.textAlternative{
+    font-size: 12px;
+}

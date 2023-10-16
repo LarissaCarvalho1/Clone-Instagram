@@ -1,0 +1,114 @@
+.logoLateralEsquerda{
+    position: fixed;
+    
+}
+
+.logoLateralEsquerda img{
+    width: 108px;
+    padding-top: 16px;
+    margin-bottom: 20px;
+}
+
+.menuLateralEsquerda{
+    position: fixed;
+    margin: 73px 1px;
+}
+
+.menuLateralEsquerda ul li{
+    padding: 4px 0px 4px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.ItemEsquerda{
+    width: 170px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex; 
+}
+
+.ItemEsquerda:hover{
+    background: #c7c7c742;
+    cursor: pointer;
+}
+
+.iconeSimples{
+    width: 24px;
+    height: 24px;
+}
+
+.iconeSimples:hover{
+    transform: scale(1.1);
+}
+
+.menuLateralEsquerda ul li span{
+    margin-right: 10px;
+}
+
+.menuLateralEsquerda img{
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+
+.button_more{
+    position: fixed;
+    bottom: 3px;
+}
+
+.menuPc2 img{
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+
+
+/*Responsivo PC2*/
+
+.logoPc2{
+    margin-top: 20px;
+    position: fixed;
+    padding-bottom: 50px;
+    display: none;
+}
+
+.logoPc2 span{
+    margin-left: 14px;
+}
+
+.menuLateralEsquerda2{
+    position: fixed;
+    margin: 73px 1px;
+    display: none;
+}
+
+.menuLateralEsquerda2 .menuPc2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 6px;
+}
+
+.itemEsquerda{
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemEsquerda:hover{
+    background: #c7c7c742;
+    cursor: pointer;
+}
+
+.button_more{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
