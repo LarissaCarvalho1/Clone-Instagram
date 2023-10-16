@@ -1,4 +1,12 @@
-# React + Vite
+A proposta deste projeto consiste na criação de um clone da tela inicial do Instagram utilizando React. Com ele, pude explorar e entender como trabalhar com componentes, além de praticar a construção de layout diferente.
+
+Acesse o link: https://clone-instagram-theta.vercel.app/
+
+
+
+
+
+### React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
