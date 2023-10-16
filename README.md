@@ -2,7 +2,7 @@ A proposta deste projeto consiste na criação de um clone da tela inicial do In
 
 Acesse o link: https://clone-instagram-theta.vercel.app/
 
-
+<img src='/src/assets/imagens/CloneInstagram.png'/>
 
 
 
